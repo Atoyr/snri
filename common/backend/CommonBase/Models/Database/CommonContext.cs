@@ -7,7 +7,8 @@ namespace Common.CommonBase.Models.Database
     {
       public CommonContext(DbContextOptions<CommonContext> options) : base(options) { }
 
-      public DbSet<Employee> Employees { get; set; }
       public DbSet<Owner> Owners { get; set; }
+      public DbSet<Organaization> Organaization {get; set; }
+      public DbSet<Employee> Employees { get; set; }
     }
 }
