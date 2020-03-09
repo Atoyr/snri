@@ -1,9 +1,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace CM.Models
+namespace Common.CommonBase.Models.Database
 {
-    public class Emp
+    public class Employee
     {
       public int id {get;set;}
       public string FirstName {get;set;}
