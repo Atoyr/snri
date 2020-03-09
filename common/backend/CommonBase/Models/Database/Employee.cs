@@ -15,6 +15,6 @@ namespace Common.CommonBase.Models.Database
       public string MiddleName {get; set; }
       public string LastName {get; set; }
       public string NickName {get; set; }
-      public bool ValidFlg{get; set; }
+      public bool IsValid {get; set; }
     }
 }
