@@ -8,13 +8,10 @@ namespace Common.CommonBase.Models.Database
     public class Organaization : TableBase
     {
       [Key]
-      public Guid OrganaizationId {get; set; }
+      public Guid OrganaizationId { get; set; }
 
-      public string DepartmentCode {get; set; }
-      public string DepartmentName {get; set; }
-      public string GlobalDepartmentName {get; set; }
-      public int DepartmentLevel {get; set; }
-      public string ParentDepartmentCode {get; set; }
+      public string OrganaizationName { get; set; }
+      public List<Department> Departments { get; set; }
     }
 }
 
