@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Common.CommonBase.Models.Database
 {
-    public class Employee
+    public class Employee : TableBase
     {
       [Key]
       public Guid EmployeeId {get; set; }
